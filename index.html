@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="testcss.css">
+    <script>
+      function count(){
+        document.querySelector('.var2').innerHTML="Thank you";
+        document.querySelector('.var1').innerHTML="for your response. There will be more feature soon.";
+      }
+      function sub1(){
+        alert("You have to sign up first");
+      }
+      function count1(){
+        document.querySelector('.var2').innerHTML="About Me";
+        document.querySelector('.var1').innerHTML="Hello There,<br>My Name is Mahadi Hasan Tanmoy";
+      }
+      function count2(){
+        document.querySelector('.var2').innerHTML="Contact";
+        document.querySelector('.var1').innerHTML="E-mail Address: mahadi.std@gmail.com";
+      }
+    </script>
+    <title>Test Site</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm fixed-top bg-dark navbar-dark">
+        <div class="container">
+        <div class="navbar-header">
+            <a href="index.html" class="navbar-brand btn btn-dark">Home</a>
+        </div>
+        <ul class="navbar-nav">
+            <li class="nav-item"><button type="button" onclick="count1()" class="btn btn-dark">About Me</button></li>
+            <li class="nav-item"><button type="button" onclick="count2()" class="btn btn-dark">Contact</button></li>
+        </ul>
+    </div>
+    </nav>
+
+    <div id="bgd">
+    <div class="container">
+    <div class="jumbotron">
+        <div>
+            <h1 class="display-3"><span class="var2 badge badge-secondary">Welcome</span></h1>
+            <p class="var1 lead">Take the challenges. Look for the opportunities in every situation to learn and grow in wisdom.</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" onclick="count()" role="button">Click</a>
+            </p>
+        </div>
+        </div>
+
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="bench-accounting-nvzvOPQW0gc-unsplash.jpg" alt="First slide" height="600px">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="retrosupply-jLwVAUtLOAQ-unsplash.jpg" alt="Second slide" height="600px">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="patrick-tomasso-Oaqk7qqNh_c-unsplash.jpg" alt="Third slide" height="600px">
+              </div>
+            </div>
+          </div>
+
+    <div id="ff" class="form-group">
+      <label for="email">Enter Your Email</label>
+      <input type="text" name="email" class="in form-control" placeholder="E-mail">
+      <label for="pass">Enter Your Password</label>
+      <input type="password" name="pass"class="in form-control" placeholder="Password">
+      <input type="submit" onclick="sub1()" class="sub btn btn-primary btn-lg">
+    </div>  
+    <div class="jumbotron">
+        <h1 class="display-3">Register Table</h1>
+        <div class="lead">
+        <table class="table table-dark table-striped">
+            <thead>
+                <td>Name</td>
+                <td>Age</td>
+                <td>Adress</td>
+            </thead>
+            <tr>
+                <td>Mahadi</td>
+                <td>22</td>
+                <td>Cumilla</td>
+            </tr>
+            <tr>
+                <td>Hafiz</td>
+                <td>23</td>
+                <td>Cumilla</td>
+            </tr>
+        </table>
+    </div>
+    </div>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
