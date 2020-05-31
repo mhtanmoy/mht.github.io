@@ -85,8 +85,9 @@
     scale: (0.98);
     color: royalblue;
 }
-
-
+.reg {
+    font-family: 'Caveat', cursive;
+}
 .pic {
     max-height: 550px;
     min-height: auto;
